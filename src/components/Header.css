@@ -1,0 +1,64 @@
+.title h1,span,p,em{
+    background-color: white;
+    color: black;
+}
+
+.title h1{
+    font-weight: 800;
+}
+.title span{
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.title p,em{
+    margin-top: -5px;
+    font-weight: 700;
+    font-size: small;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    padding: 20px 5%;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+input{
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-style: oblique;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.date{
+    width:  calc(20%);
+    display: flex;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+}
+
+.date input{
+    width:  calc(75%);
+    font-size:  14px;
+    font-style: normal;
+}
+
+
